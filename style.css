@@ -33,7 +33,9 @@ div.Box4 {
     text-align: center;
     margin: 25px 50px;
     padding: 10px;
-    border: 5px solid gray;
+    border: 3px solid black;
+    outline: 3px solid black;
+    outline-offset: 12px;
 }
 
 div.Box5 {
@@ -41,7 +43,7 @@ div.Box5 {
     text-align: center;
     margin: 25px 100px;
     padding: 10px;
-    border: 5px solid gray;
+    border: 5px dashed gray;
 }
 
 div.Box6 {
@@ -49,7 +51,7 @@ div.Box6 {
     text-align: center;
     margin: 25px 200px;
     padding: 10px;
-    border: 5px solid gray;
+    border: 5px dashed gray;
 }
 
 div.Box7 {
@@ -57,35 +59,43 @@ div.Box7 {
     text-align: center;
     margin: 25px 300px;
     padding: 10px;
-    border: 5px solid gray;
+    border: 5px dashed gray;
 }
 
 div.Box8 {
     text-align: center;
-    border: 2px solid black;
+    border: 3px solid black;
     background-color: yellow;
     padding: 20px;
     margin: 100px 500px;
+    outline: 10px outset yellow;
 }
 
 div.left {
     background-color: yellow;
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 10px;
     float: left;
     margin: 100px;
     width: 30%;
     height: 50px;
     text-align: center;
+    outline: 10px outset yellow;
 }
 
 div.right {
     background-color: yellow;
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 10px;
     float: right;
     margin: 100px;
     width: 30%;
     height: 50px;
     text-align: center;
+    outline: 10px outset yellow;
+}
+
+h2 {
+    background-color: aquamarine;
+    border: 3px solid black;
 }
